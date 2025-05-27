@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Publicar Receitas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <form>
+      <label for="nome">Nome</label>
+      <input type="text" id="nome" name="nome" />
+
+      <label for="ingredientes">Ingredientes</label>
+      <select id="ingredientes" name="ingredientes">
+        <option>Selecionar</option>
+      </select>
+
+      <label for="modo-preparo">Modo de Preparo</label>
+      <div class="modo-preparo">
+        <p><strong>exemplo:</strong></p>
+        <ul>
+          <li>Reserve 2 ovos em uma xicara</li>
+          <li> misture 2 xícaras de chá de farinha de trigo</li>
+        </ul>
+      </div>
+
+      <label for="categoria">Categoria da Receita</label>
+      <select id="categoria" name="categoria">
+        <option>Selecionar</option>
+      </select>
+
+      <label for="dificuldade">Nível de Dificuldade</label>
+      <select id="dificuldade" name="dificuldade">
+        <option>Selecionar</option>
+      </select>
+
+      <label for="tempo">Tempo de Preparo</label>
+      <input type="text" id="tempo" name="tempo" />
+    </form>
+  </div>
+</body>
+</html>
