@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Georgia', serif;
-    background: linear-gradient(to right, #f6b46f, #fbd598);
+    background: rgba(255, 197, 108, 1);
   }
   
   .container {
@@ -25,7 +25,7 @@ body {
   input, select {
     width: 95%;
     padding: 10px;
-    background-color: #2f5f66;
+    background-color: rgba(50, 88, 98, 1);
     color: rgb(0, 0, 0);
     border: none;
     border-radius: 5px;
@@ -34,7 +34,7 @@ body {
   }
   
   .modo-preparo {
-    background-color: #2f5f66;
+    background-color: rgba(50, 88, 98, 1);
     color: black;
     border-radius: 6px;
     padding: 7px;
