@@ -35,10 +35,15 @@ body {
   
   .modo-preparo {
     background-color: #2f5f66;
-    color: white;
-    border-radius: 5px;
-    padding: 10px;
+    color: black;
+    border-radius: 6px;
+    padding: 7px;
     margin-top: 5px;
+    width: 100%;
+    border: none;
+    resize: vertical;
+    font-family: inherit;
+    font-size: 1rem;
   }
   
   .modo-preparo p {
@@ -50,6 +55,7 @@ body {
     padding: 0;
   }
   
+
   option {
     background-color: white;
     color: black;
