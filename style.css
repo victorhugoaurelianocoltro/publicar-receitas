@@ -1,63 +1,79 @@
 body {
-    margin: 0;
-    font-family: 'Georgia', serif;
-    background: rgba(255, 197, 108, 1);
-  }
-  
-  .container {
-    max-width: 400px;
-    margin: 30px auto;
-    background-color: #fef6dd;
-    padding: 20px;
-    border-radius: 20px;
-    border: 2px solid #a0433a;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  }
-  
-  label {
-    display: block;
-    margin-top: 15px;
-    font-weight: bold;
-    font-size: 1em;
-    color: #2a2a2a;
-  }
-  
-  input, select {
-    width: 95%;
-    padding: 10px;
-    background-color: rgba(50, 88, 98, 1);
-    color: rgb(0, 0, 0);
-    border: none;
-    border-radius: 5px;
-    margin-top: 5px;
-    font-size: 1em;
-  }
-  
-  .modo-preparo {
-    background-color: rgba(50, 88, 98, 1);
-    color: black;
-    border-radius: 6px;
-    padding: 7px;
-    margin-top: 5px;
-    width: 100%;
-    border: none;
-    resize: vertical;
-    font-family: inherit;
-    font-size: 1rem;
-  }
-  
-  .modo-preparo p {
-    margin: 0;
-  }
-  
-  .modo-preparo ul {
-    margin: 5px 0 0 20px;
-    padding: 0;
-  }
-  
+  margin: 0;
+  background-color: rgba(255, 197, 108, 1);
+  font-family: "Georgia", serif;
+}
 
-  option {
-    background-color: white;
-    color: black;
-  }
-  
+/* LOGO */
+header {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.logo {
+  width: 100px;
+}
+
+/* FORMULÁRIO */
+.container {
+  max-width: 400px;
+  margin: 80px auto 30px auto;
+  background-color: #f8f2db;
+  padding: 20px;
+  border-radius: 25px;
+  border: 1px solid #8b0000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulario label {
+  display: block;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.formulario input,
+.formulario textarea,
+.formulario select {
+  width: 100%;
+  background-color: rgba(50, 88, 98, 1);
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.formulario textarea::placeholder {
+  color: rgba(136, 127, 127, 1);
+}
+
+/* ÍCONES */
+.select-wrapper {
+  position: relative;
+}
+
+.select-wrapper select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding-right: 30px;
+}
+
+.icone-seta {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  pointer-events: none;
+}
+
+/* FOTO DA RECEITA */
+.foto-receita {
+  margin-top: 10px;
+  width: 150px;
+  display: block;
+}

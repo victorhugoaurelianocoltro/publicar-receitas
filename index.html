@@ -3,39 +3,50 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Publicar Receitas</title>
+  <title>Publicar Receita</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
+  <header>
+    <img src="img/logo.png" alt="Logo Receitoteca" class="logo">
+  </header>
+
+  
   <div class="container">
-    <form>
-      <label for="nome">Nome</label>
+    <form class="formulario">
+      <label for="nome">NOME</label>
       <input type="text" id="nome" name="nome" />
 
-      <label for="ingredientes">Ingredientes</label>
-      <select id="ingredientes" name="ingredientes">
-        <option>Selecionar</option>
-      </select>
+      <label for="ingredientes">INGREDIENTES</label>
+      <textarea id="ingredientes" name="ingredientes" rows="4"></textarea>
 
-      <label for="modo-preparo">Modo de Preparo</label>
-      <textarea id="modo-preparo" name="modo-preparo"
-       placeholder="Ex: Reserve 2 ovos em uma xícara. 
-       Misture 2 xícaras de chá de farinha de trigo."
-        rows="5" class="modo-preparo"></textarea>
+      <label for="modo">MODO DE PREPARO</label>
+      <textarea id="modo" name="modo" rows="4" placeholder="ex: Reserve 2 ovos  em uma xícara. misture com 2 xícaras de chá de farinha de trigo."></textarea>
 
-      <label for="categoria">Categoria da Receita</label>
-      <select id="categoria" name="categoria">
-        <option>Selecionar</option>
-      </select>
+      <label for="categoria">CATEGORIA DA RECEITA</label>
+      <div class="select-wrapper">
+        <select id="categoria" name="categoria">
+          <option>SELECIONAR</option>
+        </select>
+        <img src="img/seta.png" alt="Seta" class="icone-seta">
+      </div>
 
-      <label for="dificuldade">Nível de Dificuldade</label>
-      <select id="dificuldade" name="dificuldade">
-        <option>Selecionar</option>
-      </select>
+      <label for="dificuldade">NIVEL DE DIFICULDADE</label>
+      <div class="select-wrapper">
+        <select id="dificuldade" name="dificuldade">
+          <option>SELECIONAR</option>
+        </select>
+        <img src="img/seta.png" alt="Seta" class="icone-seta">
+      </div>
 
-      <label for="tempo">Tempo de Preparo</label>
+      <label for="tempo">TEMPO DE PREPARO</label>
       <input type="text" id="tempo" name="tempo" />
+
+      <label for="foto">FOTO</label>
+      <img src="img/batata.png" alt="Foto da Receita" class="foto-receita">
     </form>
   </div>
+
 </body>
 </html>
